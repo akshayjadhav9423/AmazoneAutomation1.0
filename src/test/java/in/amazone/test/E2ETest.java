@@ -25,22 +25,21 @@ public class E2ETest extends TestBaseAmazone {
 	@BeforeClass
 	public void classMethod() throws Exception {
 		System.out.println("before class..");
-		//setup();
+		setup();
 	
 	}
 	
 	@BeforeMethod
 	public void beforeMethod() throws IOException {	
 		System.out.println("before method..");
-		//open();
+		open();
 		//load();
 		
 	}
 	
 	@Test
 	public void TC001_test1() throws Exception {
-		setup();
-		open();
+
 		System.out.println("Welcome code is running successfully...");
 //		login.click();
 //		username.sendkeys();
