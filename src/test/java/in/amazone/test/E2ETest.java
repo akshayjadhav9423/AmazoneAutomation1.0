@@ -27,7 +27,6 @@ public class E2ETest extends TestBaseAmazone {
 		System.out.println("before class..");
 		//setup();
 	
-	
 	}
 	
 	@BeforeMethod
